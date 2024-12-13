@@ -6,6 +6,16 @@
     padding: 0;
 }
 
+.content-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9a5;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 ol, ul {
     padding-left: 0.5em;
 }
@@ -62,7 +72,7 @@ body {
 }
 
 .title * {
-    color: #767a77;
+    color: #08220e;
 }
 
 .title p {
@@ -77,6 +87,21 @@ body {
 }
 
 /* Footer */
+
+.footer .social {
+    display: flex;
+    gap: 10px; /* Mellanrum mellan ikoner */
+}
+
+.footer .social a {
+    color: inherit; /* Ärva textfärgen */
+    text-decoration: none;
+}
+
+.footer .social i {
+    font-size: 1.5rem; /* Gör ikoner större */
+}
+
 .footer {
     display: flex;
     justify-content: space-between;

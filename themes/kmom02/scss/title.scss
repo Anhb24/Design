@@ -1,0 +1,32 @@
+
+*
+.title, .logo {
+    padding: 1em 1em 1em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 100%;
+    }
+    .logo {
+        max-width: 100%;
+    }
+}
+
+.title * {
+    color: #08220e;
+}
+
+.title p {
+    font-style: italic;
+    font: "Fira Sans", "Source Sans Pro", ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    font: "Fira Sans", "Source Sans Pro", ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.5rem;
+    color: #752042;
+}
